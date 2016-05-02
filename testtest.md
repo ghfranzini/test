@@ -11,3 +11,8 @@ The top plate is distinguishable from the bottom plate because of the rectanglul
 Each pressure plate assembly creates its own individual circuit containing a high voltage rail, a ground rail, an LED, two resistors, and a connection to a digital pin of the Arduino Mega. A pull-down resistor connects the digital input pin to ground so it will always read a low voltage until the pressure plate is stepped on. When the aluminum foil on each plate makes contact, the circuit is completed and the pin is driven high. 
 
 ![alt text](https://github.com/ghfranzini/test/blob/master/plates.png)
+
+The LEDs are not currently connected, but they are included. The blue resistors are the 10 ohm resistors that come with the LEDs for simplicity. 
+
+##Future Work
+The plates need to be assembled once there is a place for them. Once they are are set up, the final wiring can be done, as per the given schematic. A physical contraption for implementing the LEDs may be helpful, even something as simple as a strip of wood with a hole for the LED to be seen above each corresponding plate for visual feedback. The final step would be making sure that the code for the Arduino is set. The code framework is there and only needs the digital pins to be chosen then configured as inputs. A final simple thing would be to paint the plates as per the final puzzle design. 
