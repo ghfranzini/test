@@ -10,4 +10,4 @@ The top plate is distinguishable from the bottom plate because of the rectanglul
 ####Circuits
 Each pressure plate assembly creates its own individual circuit containing a high voltage rail, a ground rail, an LED, two resistors, and a connection to a digital pin of the Arduino Mega. A pull-down resistor connects the digital input pin to ground so it will always read a low voltage until the pressure plate is stepped on. When the aluminum foil on each plate makes contact, the circuit is completed and the pin is driven high. 
 
-![alt text](test/plates.png)
+![alt text](https://github.com/ghfranzini/test/blob/master/plates.png)
