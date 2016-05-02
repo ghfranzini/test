@@ -1,5 +1,5 @@
 #Pressure Plate Puzzle
-
+######By Gabrielle Franzini
 For the escape room, one of the puzzles involves a set of pressure plates. There are 8 pressure plates which can be set up in any configuration. The plates need to be pressed in a certain order at a certain tempo in order to complete the puzzle.
 
 ##Construction
@@ -16,3 +16,5 @@ The LEDs are not currently connected, but they are included. The blue resistors 
 
 ##Future Work
 The plates need to be assembled once there is a place for them. Once they are are set up, the final wiring can be done, as per the given schematic. A physical contraption for implementing the LEDs may be helpful, even something as simple as a strip of wood with a hole for the LED to be seen above each corresponding plate for visual feedback. The final step would be making sure that the code for the Arduino is set. The code framework is there and only needs the digital pins to be chosen then configured as inputs. A final simple thing would be to paint the plates as per the final puzzle design. 
+
+Please contact Gabrielle Franzini at ghfranzini@gmail.com with any questions. 
