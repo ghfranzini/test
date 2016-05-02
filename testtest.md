@@ -9,3 +9,5 @@ The plates need to register two states: Unpressed and pressed. This is accomplis
 The top plate is distinguishable from the bottom plate because of the rectanglular space free of aluminum foil in the middle. This is to prevent accidental contact where there is the most likely chance of it happening. The bottom plate is completely covered in aluminum foil to ensure contact wherever is pressed. 
 ####Circuits
 Each pressure plate assembly creates its own individual circuit containing a high voltage rail, a ground rail, an LED, two resistors, and a connection to a digital pin of the Arduino Mega. A pull-down resistor connects the digital input pin to ground so it will always read a low voltage until the pressure plate is stepped on. When the aluminum foil on each plate makes contact, the circuit is completed and the pin is driven high. 
+
+![alt text](test/plates.png)
